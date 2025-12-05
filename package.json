@@ -1,0 +1,16 @@
+{
+  "name": "egg-tracker-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that tracks eggs hatched from webhook",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "express": "^4.18.2",
+    "dotenv": "^16.4.5",
+    "pg": "^8.11.3"
+  }
+}
