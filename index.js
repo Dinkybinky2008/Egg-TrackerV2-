@@ -250,7 +250,7 @@ function parseWebhookPayload(body) {
       for (const f of e.fields) {
         const name = (f.name||'').toLowerCase();
         const val = (f.value||'').toString();
-        if (name.includes('hatched from') || name.includes('from')) {
+        if (name.includes('Hatched From') || name.includes('From')) {
           eggName = val.replace(/egg/ig,'').trim();
         }
         if (name.includes('weight')) {
